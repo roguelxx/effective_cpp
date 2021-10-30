@@ -110,4 +110,4 @@ Directory& tempDir()			// this replaces the tempDir object; it
 
 要注意的是，`non-const`静态对象不是线程安全的，上述写法仅适用于单线程环境。
 
-![image-20211028142911794](D:\projects\CLionProjects\effective_cpp\notes\images\item4-conclusion.png)
+![image-20211028142911794](images\item4-conclusion.png)
