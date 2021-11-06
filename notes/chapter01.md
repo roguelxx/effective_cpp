@@ -52,7 +52,7 @@ ABEntry::ABEntry(const std::string& name, const std::string& address,
 }
 ```
 
-`ABEntry` ctor内部进行的时赋值（assignment）操作，在函数体执行前，非内置类型（`string`，`list`）调用对应的默认构造器初始化，而对于内置类型（`int`）就无法保证它的初始化。所以，正确的写法应该是使用初始化列表（initialization list）,通过赋值构造（copy-construct）初始化。
+`ABEntry` ctor内部进行的是赋值（assignment）操作，在函数体执行前，非内置类型（`string`，`list`）调用对应的默认构造器初始化，而对于内置类型（`int`）就无法保证它的初始化。所以，正确的写法应该是使用初始化列表（initialization list）,通过赋值构造（copy-construct）初始化。
 
 ```c++
 ABEntry::ABEntry(const std::string& name, const std::string& address,
