@@ -29,6 +29,8 @@ delete pson;
 
 ![image-20211030110110396](images/item7-conclusion.png)
 
+## Item 8
+
 ## Item 9
 
 不要在ctor或dtor中调用纯虚函数（pure virtual function），考虑以下代码：
