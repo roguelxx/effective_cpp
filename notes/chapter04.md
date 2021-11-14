@@ -16,4 +16,13 @@
 
 所以最好的做法就是返回新对象的copy。
 
-![image-20211113201800894](/home/lxx/Documents/books/cpp/effective_cpp/notes/images/item20.png)
+![image-20211113201800894](./images/item20.png)
+
+## Item 23
+
+成员变量的增加意味着减少一个类的封装程度，所以在non-member non-friend functions和member functions之间，更倾向于选择non-member non-friend functions。
+
+## Item 24
+
+看晕了😵
+
